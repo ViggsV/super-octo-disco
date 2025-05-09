@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Simple Social Page
 
-## Getting Started
+---
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Feed Tab**: See all posts in order.
+* **New Post Tab**: Write a message and/or add a photo link.
+* **Save Posts Locally**: Your posts stay in the app even if you close the browser.
+* **Like Button**: Tap to show you enjoyed a post.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **React**
+* **Tailwind CSS** 
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## How it Works
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Two Tabs**: Switch between reading the feed and creating a new post.
+2. **Making a Post**: Type your message, add photo URL, then hit “Post.”
+3. **Viewing the Feed**: All your saved posts appear, newest first.
+4. **Liking**: Tap the heart icon on any post to increase its like count.
+5. **Saving**: Everything you do is stored on your device—no login required.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Live Demo**: https://super-octo-disco-git-1-add-page-viggs-projects.vercel.app/
+* **Repo**: https://github.com/ViggsV/super-octo-disco.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Potential Improvements
+
+* Let users sign up and log in.
+* Store posts on a server so they’re backed up online.
+* Add a dark/light mode switch.
+* Allow comments on posts.
+* Show notifications when someone likes your post.
+* Add profile page
+* Add a specific theme
+
+---
+
+## Developer Notes
+
+* This is just a quick demo
+* For a bigger app, you’d add a backend (server) and user accounts.
+* Right now, everything is kept in your browser—so if you clear your storage, posts go away.
